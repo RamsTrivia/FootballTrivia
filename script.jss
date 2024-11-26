@@ -1,7 +1,7 @@
 // Replace with your actual Google Sheet ID and API Key
 const sheetId = "2PACX-1vRKV_MzdBl0cQgtABJYqw-HmNsbrRIYkLUbmj0KC4UeYU2yv79mnMM7oZAy0F01NUnR37oI_ZL_OExS"; //
 const apiKey = "AIzaSyDIcklZ8oZtYUSZsbvarvPnPEMITpZMIuQ";   // Replace with your API Key
-const sheetRange = "Sheet1!A2:F";       // Sheet range for the questions and answers
+const sheetRange = "Sheet1!A2:F3";       // Sheet range for the questions and answers
 
 // Function to fetch trivia data from Google Sheets
 async function fetchTriviaData() {
